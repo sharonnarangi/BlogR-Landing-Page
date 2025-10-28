@@ -8,7 +8,7 @@
 body {
   font-family: "Inter", sans-serif;
   color: #111827;
-  background-color: #F9FAFB;
+  background-color: #310214;
   line-height: 1.6;
 }
 
@@ -28,18 +28,18 @@ header {
 .logo {
   font-weight: 700;
   font-size: 1.2rem;
-  color: #1E3A8A;
+  color: #680254;
 }
 
 nav a {
   margin-left: 1.5rem;
   text-decoration: none;
-  color: #374151;
+  color: #680254;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #1E3A8A;
+  color: #6a0d9c;
 }
 
 .substack-link {
@@ -55,19 +55,19 @@ nav a:hover {
 
 .hero h1 {
   font-size: 2.2rem;
-  color: #1E3A8A;
+  color: #040404;
   margin-bottom: 1rem;
 }
 
 .hero p {
   max-width: 700px;
   margin: 0 auto 2rem;
-  color: #374151;
+  color: #080808;
   font-size: 1.1rem;
 }
 
 .btn-primary {
-  background: #1E3A8A;
+  background: #3f0227;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
@@ -87,7 +87,7 @@ nav a:hover {
 
 .featured h2 {
   font-size: 1.8rem;
-  color: #1E3A8A;
+  color:white;
   margin-bottom: 2rem;
 }
 
@@ -113,45 +113,46 @@ nav a:hover {
 }
 
 .post h3 {
-  color: #1E3A8A;
+  color: #060606;
   margin-bottom: 0.75rem;
 }
 
 .post p {
-  color: #4B5563;
+  color: #090909;
   margin-bottom: 1rem;
 }
 
 .post a {
   text-decoration: none;
-  color: #F59E0B;
+  color: #530434;
   font-weight: 600;
 }
 
 /* ABOUT SECTION */
 .about {
-  background: #F3F4F6;
+  background-color: #310214;
+  background: #F3F4F6   ;
   padding: 5rem 2rem;
   text-align: center;
 }
 
 .about h2 {
-  color: #1E3A8A;
+  color: #0c0c0c;
   margin-bottom: 1.5rem;
 }
 
 .about p {
   max-width: 750px;
   margin: 0 auto;
-  color: #374151;
+  color: #0c0c0c;
 }
 
 /* CTA SECTION */
 .cta {
   text-align: center;
   padding: 5rem 2rem;
-  background: linear-gradient(120deg, #1E3A8A 0%, #F59E0B 100%);
-  color: white;
+  background: linear-gradient(120deg, #F9FAFB 50%, #F59E0B20 100%);
+  color: rgb(11, 10, 10);
 }
 
 .cta h2 {
@@ -165,8 +166,8 @@ nav a:hover {
 }
 
 .btn-secondary {
-  background: white;
-  color: #1E3A8A;
+  background: rgb(27, 0, 17);
+  color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   text-decoration: none;
@@ -175,7 +176,8 @@ nav a:hover {
 }
 
 .btn-secondary:hover {
-  background: #F3F4F6;
+  background-color: #310214;
+ 
 }
 
 /* FOOTER */
@@ -184,7 +186,7 @@ footer {
   padding: 2rem;
   background: white;
   font-size: 0.9rem;
-  color: #6B7280;
+  color: #300224;
   border-top: 1px solid #E5E7EB;
 }
 
